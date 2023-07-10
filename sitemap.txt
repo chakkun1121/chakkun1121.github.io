@@ -2,6 +2,8 @@ https://chakkun1121.github.io/
 https://chakkun1121.github.io/view-english/
 https://chakkun1121.github.io/view-english/release-notes/
 https://chakkun1121.github.io/view-english/lightVersion/
+https://chakkun1121.github.io/view-english/view-english.pdf
+https://chakkun1121.github.io/view-english/img/view-english.webp
 https://chakkun1121.github.io/tools/
 https://chakkun1121.github.io/dataURL/
 https://chakkun1121.github.io/word-count/
@@ -21,5 +23,6 @@ https://chakkun1121.github.io/help/view-english/learn/changeStyle.html
 https://chakkun1121.github.io/help/view-english/learn/print.html
 https://chakkun1121.github.io/help/view-english/learn/cards.html
 https://chakkun1121.github.io/help/view-english/learn/settings.html
+https://chakkun1121.github.io/help/view-english/img/google-wayaku.webp
 https://zoom-word.vercel.app/
 https://quizexam.vercel.app/
