@@ -12,7 +12,6 @@ https://chakkun1121.github.io/word-count/
 https://chakkun1121.github.io/bingo/sitemap.txt
 https://chakkun1121.github.io/web-camera/
 https://chakkun1121.github.io/games/
-https://chakkun1121.github.io/help/
 https://chakkun1121.github.io/blog/
 https://chakkun1121.github.io/blog/sitemap.xml
 https://chakkun1121.github.io/blog/sitemap.txt
