@@ -1,17 +1,12 @@
 https://chakkun1121.github.io/
 https://chakkun1121.github.io/view-english/
-https://chakkun1121.github.io/view-english/sitemap.txt
 https://chakkun1121.github.io/tools/
-https://chakkun1121.github.io/tools/sitemap.xml
 https://chakkun1121.github.io/dataURL/
 https://chakkun1121.github.io/word-count/
 https://chakkun1121.github.io/bingo/
-https://chakkun1121.github.io/bingo/sitemap.txt
 https://chakkun1121.github.io/web-camera/
 https://chakkun1121.github.io/games/
 https://chakkun1121.github.io/blog/
-https://chakkun1121.github.io/blog/sitemap.xml
-https://chakkun1121.github.io/blog/sitemap.txt
 https://chakkun1121.github.io/zoom-word/
 https://quizexam.vercel.app/
 https://quizexam.vercel.app/sitemap.txt
