@@ -3,24 +3,6 @@ import { Metadata } from "next";
 export default function Home() {
   return (
     <>
-      <meta charSet="UTF-8" />
-      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta
-        name="google-site-verification"
-        content="svqjA4XgnRTswxTionwJmwRATDC7VSywlA7QPYrfUL4"
-      />
-      <meta
-        name="google-site-verification"
-        content="rfKiLBvqtBkqwBWnhRbMVxM5srANIl73OuriqZd24-A"
-      />
-      <meta
-        name="description"
-        content="個人で開発をしているchakkun1121のホームページです。 "
-      />
-      <link rel="canonical" href="https://chakkun1121.github.io/" />
-      <title>chakkun1121</title>
-      {/* Google tag (gtag.js) */}
       <header>
         <h1>chakkun1121</h1>
       </header>
@@ -57,7 +39,4 @@ export default function Home() {
       </main>
     </>
   );
-}
-export const metadata: Metadata = {
-  
 }
