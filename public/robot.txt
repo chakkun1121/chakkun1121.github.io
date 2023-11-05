@@ -1,2 +1,5 @@
-User-agent: Google-Extended
+User-agent: Google-Extended 
+User-agent: ia_archiver
 Disallow: /
+
+Sitemap: https://chakkun1121.github.io/sitemap.txt
