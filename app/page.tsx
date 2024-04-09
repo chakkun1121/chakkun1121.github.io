@@ -11,11 +11,11 @@ export default function Home() {
           <h2>制作物↓</h2>
           <ul>
             <li>
-              <a href="/view-english">和訳表示サイト</a>
+              <a href="https://vocab-phrase.vercel.app" target="_blank">VocabPhrase 英文、英単語専用の単語帳アプリ</a>
             </li>
             <li>
-              <a href="https://quizexam.vercel.app/" target="_target">
-                QuizExam - 一問一答形式のクイズで試験本番の練習をしよう!
+              <a href="/WebPDF-Studio">
+                WebPDF Studio (webブラウザでPDFを編集する無料アプリ)
               </a>
             </li>
             <li>
