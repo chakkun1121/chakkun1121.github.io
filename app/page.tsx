@@ -14,18 +14,18 @@ export default function Home() {
               <a href="https://vocab-phrase.vercel.app" target="_blank">VocabPhrase 英文、英単語専用の単語帳アプリ</a>
             </li>
             <li>
-              <a href="/WebPDF-Studio">
+              <a href="/WebPDF-Studio/">
                 WebPDF Studio (webブラウザでPDFを編集する無料アプリ)
               </a>
             </li>
             <li>
-              <a href="/dataURL">ファイルをdataURLに変換</a>
+              <a href="/dataURL/">ファイルをdataURLに変換</a>
             </li>
             <li>
-              <a href="/blog">chakkun1121のブログ</a>
+              <a href="/blog/">chakkun1121のブログ</a>
             </li>
             <li>
-              <a href="/tools">
+              <a href="/tools/">
                 webアプリ(上記以外の制作物はこのページにあります。)
               </a>
             </li>
