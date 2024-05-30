@@ -7,7 +7,12 @@ export const metadata: Metadata = {
     template: "%s | chakkun1121",
   },
   description: "個人で開発をしているchakkun1121のホームページです。 ",
+  authors: {
+    name: "chakkun1121",
+    url: "https://chakkun1121.github.io/",
+  },
   metadataBase: new URL("https://chakkun1121.github.io/"),
+  themeColor: "#fefbe6",
   alternates: { canonical: "/" },
   verification: {
     google: [
