@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { WithContext, WebSite } from "schema-dts";
+import { WebSite, WithContext } from "schema-dts";
 import "./globals.css";
 export const metadata: Metadata = {
   title: {
@@ -32,11 +32,13 @@ export default function RootLayout({
   };
   return (
     <html lang="ja">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <body className="p-2">{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
