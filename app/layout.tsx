@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { WebSite, WithContext } from "schema-dts";
 import "./globals.css";
 export const metadata: Metadata = {
   title: {
@@ -10,7 +11,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   verification: {
     google: [
+      // cspell: disable-next-line
       "svqjA4XgnRTswxTionwJmwRATDC7VSywlA7QPYrfUL4",
+      // cspell: disable-next-line
       "rfKiLBvqtBkqwBWnhRbMVxM5srANIl73OuriqZd24-A",
     ],
   },
@@ -21,9 +24,21 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const jsonLd: WithContext<WebSite> = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "chakkun1121",
+    url: "https://chakkun1121.github.io/",
+  };
   return (
     <html lang="ja">
-      <body className="p-2">{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
