@@ -5,12 +5,14 @@ export default function Links() {
   const link = [
     {
       name: "github",
-      icon: <GitHubLogoIcon />,
+      icon: <GitHubLogoIcon width={24} height={24} />,
       userName: "chakkun1121",
       url: "https://github.com/chakkun1121",
     },
     {
       name: "note",
+      // eslint-disable-next-line @next/next/no-img-element
+      icon: <img src="/icons/note.svg" width={24} height={24} alt="note" />,
       userName: "chakkun1121",
       url: "https://note.com/chakkun1121",
     },
@@ -20,7 +22,7 @@ export default function Links() {
       <h2 className="text-2xl">アカウント</h2>
       <div className="space-y-2">
         {link.map(({ name, icon, userName, url }) => (
-          <Card>
+          <Card key={name}>
             <CardContent className="flex items-center justify-between gap-4 p-6 text-xl">
               <div className="flex items-center gap-2">
                 {icon ? icon : null}
