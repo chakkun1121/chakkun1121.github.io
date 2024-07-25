@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import { Metadata, Viewport } from "next";
 import { WebSite, WithContext } from "schema-dts";
 import "./globals.css";
 export const metadata: Metadata = {
@@ -12,18 +12,15 @@ export const metadata: Metadata = {
     url: "https://chakkun1121.github.io/",
   },
   metadataBase: new URL("https://chakkun1121.github.io/"),
-  themeColor: "#fefbe6",
   alternates: { canonical: "/" },
   verification: {
-    google: [
-      // cspell: disable-next-line
-      "svqjA4XgnRTswxTionwJmwRATDC7VSywlA7QPYrfUL4",
-      // cspell: disable-next-line
-      "rfKiLBvqtBkqwBWnhRbMVxM5srANIl73OuriqZd24-A",
-    ],
+    // cspell: disable-next-line
+    google: "rfKiLBvqtBkqwBWnhRbMVxM5srANIl73OuriqZd24-A",
   },
 };
-
+export const viewport: Viewport = {
+  themeColor: "#fefbe6",
+};
 export default function RootLayout({
   children,
 }: {

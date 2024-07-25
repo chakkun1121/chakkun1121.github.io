@@ -49,6 +49,7 @@ export default function Works() {
               </CardHeader>
               {work.image ? (
                 <CardContent>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={work.image}
                     alt={work.name}

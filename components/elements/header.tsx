@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="sticky inset-x-0 top-0 z-50 mb-4 flex items-center gap-4 bg-background bg-opacity-85 p-2">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/user-icon.png"
         alt="icon"

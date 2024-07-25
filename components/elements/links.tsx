@@ -12,7 +12,7 @@ export default function Links() {
     {
       name: "note",
       // eslint-disable-next-line @next/next/no-img-element
-      icon: <img src="/icons/note.svg" width={24} height={24} alt="note" />,
+      icon: <img src="/images/note.svg" width={24} height={24} alt="note" />,
       userName: "chakkun1121",
       url: "https://note.com/chakkun1121",
     },
