@@ -7,6 +7,5 @@ https://chakkun1121.github.io/bingo/
 https://chakkun1121.github.io/web-camera/
 https://chakkun1121.github.io/blog/
 https://chakkun1121.github.io/zoom-word/
-https://quizexam.vercel.app/
-https://quizexam.vercel.app/sitemap.txt
 https://chakkun1121.github.io/WebPDF-Studio/
+https://chakkun1121.github.io/online-museum/
