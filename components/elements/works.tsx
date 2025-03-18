@@ -33,7 +33,7 @@ const works = [
     name:"chakkun1121 オンライン美術館",
     description:"",
     url:"/online-museum/"
-  }
+  },
   {
     name: "webアプリ",
     description: "上記以外の制作物はこのページにあります。",
