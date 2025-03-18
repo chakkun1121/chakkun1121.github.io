@@ -5,7 +5,7 @@ export default function Header() {
     <header className="sticky inset-x-0 top-0 z-50 mb-4 flex items-center gap-4 bg-background bg-opacity-85 p-2">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/user-icon.png"
+        src="/images/user-icon.png"
         alt="icon"
         width={50}
         height={50}
