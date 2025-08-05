@@ -38,7 +38,7 @@ const works = [
     name:"FoodTruck Financier",
     description:"このアプリは屋台の総合会計アプリです。レジ打ち、注文管理、在庫管理、売上管理などができます。",
     url:"https://github.com/chakkun1121/food-truck-financier"
-  }
+  },
   {
     name: "webアプリ",
     description: "上記以外の制作物はこのページにあります。",
